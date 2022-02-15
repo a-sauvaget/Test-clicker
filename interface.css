@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.cookieContainer {
+  text-align: center;
+}
+
+.cookieCounter {
+  padding-top: 2rem;
+}
+
+.cookie {
+  height: 100px;
+  width: 100px;
+  background-color: burlywood;
+  border-radius: 50px;
+  position: relative;
+}
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.cookie:hover {
+  transform: scale(1.1);
+  animation: hue 3s infinite;
+}
+
+.chocolateChips1 {
+  position: absolute;
+  left: 10px;
+  top: 23px;
+  z-index: 10;
+  height: 20px;
+  width: 23px;
+  background-color: darkred;
+  border-radius: 50%;
+}
+
+.chocolateChips2 {
+  position: absolute;
+  left: 67px;
+  top: 49px;
+  z-index: 10;
+  height: 14px;
+  width: 19px;
+  background-color: darkred;
+  border-radius: 50%;
+}
+
+.chocolateChips3 {
+  position: absolute;
+  left: 67px;
+  top: 20px;
+  z-index: 10;
+  height: 9px;
+  width: 12px;
+  background-color: darkred;
+  border-radius: 50%;
+}
+
+.chocolateChips4 {
+  position: absolute;
+  left: 43px;
+  top: 67px;
+  z-index: 10;
+  height: 21px;
+  width: 19px;
+  background-color: darkred;
+  border-radius: 50%;
+}
